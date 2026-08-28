@@ -81,6 +81,30 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KumarShivam1908&theme=gotham" alt="streak" />
 </p>
 
+---
+
+### 🏆 Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=KumarShivam1908&theme=gruvbox&no-frame=true&no-bg=true&margin-w=4&column=7" alt="trophies" />
+</p>
+
+---
+
+### 📈 Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=KumarShivam1908&theme=github-compact&hide_border=true&area=true" alt="activity graph" />
+</p>
+
+---
+
+### 🐍 Watch My Contributions Get Eaten
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" />
+</p>
+
 <p align="center">
   <i>⭐️ From <a href="https://github.com/KumarShivam1908">KumarShivam1908</a></i>
 </p>
