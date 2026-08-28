@@ -73,8 +73,7 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=KumarShivam1908&show_icons=true&theme=gotham&include_all_commits=true&count_private=true" alt="stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KumarShivam1908&layout=compact&langs_count=8&theme=gotham" alt="top languages" />
+  <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/main/metrics.svg" alt="metrics" />
 </p>
 
 <p align="center">
@@ -83,18 +82,22 @@
 
 ---
 
-### 🏆 Trophies
+### 🗓️ Daily Activity
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=KumarShivam1908&theme=gruvbox&no-frame=true&no-bg=true&margin-w=4&column=7" alt="trophies" />
+  <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/main/metrics.isocalendar.svg" alt="isometric contribution calendar" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/main/metrics.habits.svg" alt="coding habits" />
 </p>
 
 ---
 
-### 📈 Contribution Activity
+### 🏆 Achievements
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=KumarShivam1908&theme=github-compact&hide_border=true&area=true" alt="activity graph" />
+  <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/main/metrics.achievements.svg" alt="achievements" />
 </p>
 
 ---
