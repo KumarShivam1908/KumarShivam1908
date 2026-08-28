@@ -88,18 +88,6 @@
   <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/main/metrics.isocalendar.svg" alt="isometric contribution calendar" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/main/metrics.habits.svg" alt="coding habits" />
-</p>
-
----
-
-### 🏆 Achievements
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/main/metrics.achievements.svg" alt="achievements" />
-</p>
-
 ---
 
 ### 🐍 Watch My Contributions Get Eaten
