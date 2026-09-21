@@ -25,7 +25,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
           template: classic
-          base: header, activity, community, repositories, metadata
+          # Parked: community (followers/sponsors) and metadata (generator footer)
+          # carry no signal about the code.
+          # base: header, activity, community, repositories, metadata
+          base: header, activity, repositories
           config_timezone: Asia/Kolkata
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
@@ -40,3 +43,34 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+# Parked: the contribution-mix radar renders honestly but plots two zeros
+# (0% issues, 0% code review). Unpark once there is review history worth showing.
+#  # Contribution mix radar (commits / issues / PRs / code review).
+#  # Runs after `metrics` so the checkout already has that job's commits.
+#  radar:
+#    needs: metrics
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v4
+#
+#      - uses: actions/setup-node@v4
+#        with:
+#          node-version: 22
+#
+#      - name: Render contribution radar
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+#          USERNAME: ${{ github.repository_owner }}
+#          RADAR_WINDOW: year
+#        run: node scripts/contribution-radar.mjs
+#
+#      - name: Commit
+#        run: |
+#          git config user.name "github-actions[bot]"
+#          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+#          git add contribution-radar.svg
+#          git diff --quiet --cached && exit 0
+#          git commit -m "chore: refresh contribution radar"
+#          git pull --rebase origin main
+#          git push

@@ -1,9 +1,11 @@
 <h1 align="center">Hi 👋, I'm Shivam Kumar</h1>
-<h3 align="center">Software Engineer · AI / ML · building things that ship</h3>
+<h3 align="center">ML &amp; computer vision — training, inference optimisation, and the apps around them</h3>
 
+<!-- Parked: profile-view count is a vanity metric, not a signal about the code.
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=KumarShivam1908&label=Profile%20views&color=0e75b6&style=flat-square" alt="profile views" />
 </p>
+-->
 
 <p align="center">
   <a href="https://www.linkedin.com/in/kumar-shivam-b8b196258/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -14,13 +16,45 @@
 
 ---
 
-### 🚀 About Me
+### 🧭 What I do
 
+I work the whole path of a vision feature: train and evaluate the model, optimise it for
+inference so it meets a real latency budget, then build the app that puts it in front of
+users. Several of the projects below were built to a hackathon deadline.
+
+Currently going deeper on **LLMs, applied ML, and system design**.
+Reach me at **hey.kumarshivam@gmail.com**.
+
+<!-- Parked: replaced by the sections below, which show the same thing with evidence.
 - 🔭 I build across the stack — from **ML models** to **production web apps**
 - 🌱 Currently going deeper on **LLMs, applied ML, and system design**
 - ⚡ Hackathon enthusiast — I like shipping fast and iterating
 - 💬 Ask me about **Python, ML, Next.js, or backend design**
 - 📫 Reach me at **hey.kumarshivam@gmail.com**
+-->
+
+---
+
+### 🧠 Machine Learning & Computer Vision
+
+| Project | What it does | Built with |
+| :-- | :-- | :-- |
+| **[Stamp & Signature Segregation](https://github.com/KumarShivam1908/Stamp-Signature-Segregate)** ⭐ 9 | Detects stamps and signatures overlapping a scanned document and lifts them off, leaving the text underneath readable | YOLO · SegFormer · Streamlit |
+| **[Railway Infrastructure Inspection](https://github.com/KumarShivam1908/RAILWAY-INFRASTRUCTURE-INSPECTION)** ⭐ 4<br/><sub>2nd Runner-Up — Wabtec Exceed 3.0</sub> | Finds track defects, bridge damage and obstacles in inspection footage to drive predictive maintenance | YOLOv11 · R-CNN · OpenCV |
+| **[Model Profiling](https://github.com/KumarShivam1908/MODEL-PROFILING)** | Converts PyTorch models to ONNX and TensorRT and profiles latency and memory — the step that decides whether a model is deployable | PyTorch · ONNX · TensorRT |
+| **[Prompt-Based Segmentation](https://github.com/KumarShivam1908/Prompt-Based-Segmentation)** | Text-conditioned segmentation for infrastructure inspection: pass an image and “segment crack”, get a binary mask back | PyTorch · vision-language models |
+| **[Scratch Detector](https://github.com/KumarShivam1908/Mowito-ScratchDetector)** | Classifies surface defects with CNNs and transformers, including synthetic data generation and a deployment pass | PyTorch · CNNs · ViT |
+
+---
+
+### 🚢 Shipped & Live
+
+| Project | What it does | Built with |
+| :-- | :-- | :-- |
+| **[outsubscribe.lol](https://outsubscribe.lol)** — <sub>[source](https://github.com/KumarShivam1908/ChannelBid)</sub> | A public leaderboard you buy your way up: bids are stored as increments, a raise charges only the difference, and two boards run off the same ledger | Next.js · Prisma · Postgres · Dodo Payments |
+| **[Portfolio Wars](https://portfolio-wars.vercel.app)** — <sub>[source](https://github.com/KumarShivam1908/PortfolioWars)</sub> | No-login gallery where people submit a portfolio site and everyone else browses, likes and comments | Next.js · Supabase |
+| **[Stitch](https://github.com/KumarShivam1908/Stitch)** ⭐ 1 | Browser-based video editor that plans an edit and routes each task to a specialist tool over MCP | TypeScript · Rust/WASM · Bun |
+| **[CPP-Hub](https://github.com/KumarShivam1908/CPP-Hub)** ⭐ 4 | DSA, core C++ and graphics programming, with multiple solution approaches per problem | C++ |
 
 ---
 
@@ -70,31 +104,37 @@
 
 ---
 
-### 📊 GitHub Stats
+### 📈 Activity
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/main/metrics.svg" alt="metrics" />
 </p>
 
+<!-- Parked: contribution-mix radar. The generator lives in scripts/contribution-radar.mjs
+     and the job is parked in .github/workflows/metrics.yml. Worth switching on once
+     there is real pull-request and review history to plot.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/main/contribution-radar.svg" alt="contribution mix across commits, issues, pull requests and code review" width="440" />
+</p>
+-->
+
+<!-- Parked: streak card measures showing up daily, and duplicates the calendar below.
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KumarShivam1908&theme=gotham" alt="streak" />
 </p>
-
----
-
-### 🗓️ Daily Activity
+-->
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/main/metrics.isocalendar.svg" alt="isometric contribution calendar" />
 </p>
 
----
-
+<!-- Parked: decoration, says nothing about the work.
 ### 🐍 Watch My Contributions Get Eaten
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" />
 </p>
+-->
 
 <p align="center">
   <i>⭐️ From <a href="https://github.com/KumarShivam1908">KumarShivam1908</a></i>
