@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Shivam Kumar</h1>
-<h3 align="center">ML &amp; computer vision — training, inference optimisation, and the apps around them</h3>
+<h3 align="center">Software engineer at Stryker · medical imaging &amp; computer vision</h3>
 
 <!-- Parked: profile-view count is a vanity metric, not a signal about the code.
 <p align="center">
@@ -18,9 +18,14 @@
 
 ### 🧭 What I do
 
-I work the whole path of a vision feature: train and evaluate the model, optimise it for
-inference so it meets a real latency budget, then build the app that puts it in front of
-users. Several of the projects below were built to a hackathon deadline.
+I'm a software engineer at **Stryker**, working on **medical imaging** and computer
+vision applications — a domain where a wrong pixel has consequences, and where inference
+has to be fast enough to sit inside a clinical workflow.
+
+That shapes how I build: the whole path of a vision feature, from training and evaluating
+the model, to optimising it for inference so it meets a real latency budget, to the app
+that puts it in front of users. Several of the projects below were built to a hackathon
+deadline.
 
 Currently going deeper on **LLMs, applied ML, and system design**.
 Reach me at **hey.kumarshivam@gmail.com**.
