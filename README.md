@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Shivam Kumar</h1>
-<h3 align="center">Software engineer at Stryker · medical imaging &amp; computer vision</h3>
+<h3 align="center">Research Associate at Stryker · medical imaging &amp; computer vision</h3>
 
 <!-- Parked: profile-view count is a vanity metric, not a signal about the code.
 <p align="center">
@@ -18,7 +18,7 @@
 
 ### 🧭 What I do
 
-I'm a software engineer at **Stryker**, working on **medical imaging** and computer
+I'm a **Research Associate at Stryker**, working on **medical imaging** and computer
 vision applications — a domain where a wrong pixel has consequences, and where inference
 has to be fast enough to sit inside a clinical workflow.
 
