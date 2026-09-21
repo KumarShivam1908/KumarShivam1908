@@ -40,13 +40,16 @@ jobs:
           plugin_followup_indepth: yes
           plugin_followup_archived: no
 
-          # Contributions to repositories not owned by the account — the part
-          # that actually reads as open source. `from: all` is needed because the
-          # default only looks at organisations.
-          plugin_notable: yes
-          plugin_notable_from: all
-          plugin_notable_types: commit, pull_request
-          plugin_notable_repositories: yes
+          # Parked: this renders "Unexpected error". The plugin asks for every
+          # repository contributed to in one GraphQL query, and that list includes
+          # `Alignerr-Code-Labeling`, an org that rejects classic PATs with a
+          # lifetime over 184 days. One forbidden repo fails the whole query, and
+          # plugin_notable_skipped cannot help because it filters after the fetch.
+          # Re-enable after reissuing METRICS_TOKEN with a lifetime under 184 days.
+          # plugin_notable: yes
+          # plugin_notable_from: all
+          # plugin_notable_types: commit, pull_request
+          # plugin_notable_repositories: yes
 
           plugin_languages: yes
           # Parked: byte sizes were noise alongside the percentages.
