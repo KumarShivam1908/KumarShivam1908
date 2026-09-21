@@ -110,13 +110,9 @@ Reach me at **hey.kumarshivam@gmail.com**.
   <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/main/metrics.svg" alt="metrics" />
 </p>
 
-<!-- Parked: contribution-mix radar. The generator lives in scripts/contribution-radar.mjs
-     and the job is parked in .github/workflows/metrics.yml. Worth switching on once
-     there is real pull-request and review history to plot.
 <p align="center">
   <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/main/contribution-radar.svg" alt="contribution mix across commits, issues, pull requests and code review" width="440" />
 </p>
--->
 
 <!-- Parked: streak card measures showing up daily, and duplicates the calendar below.
 <p align="center">
