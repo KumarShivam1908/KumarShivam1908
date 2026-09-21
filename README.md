@@ -21,10 +21,6 @@
 I'm a **Research Associate at Stryker**, working on medical imaging and computer vision
 applications.
 
-I work across the whole path of a vision feature: training and evaluating the model,
-optimising it for inference, then building the app around it. Several of the projects
-below were built at hackathons.
-
 Currently going deeper on **LLMs, applied ML, and system design**.
 Reach me at **hey.kumarshivam@gmail.com**.
 
