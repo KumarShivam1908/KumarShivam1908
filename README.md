@@ -18,14 +18,12 @@
 
 ### 🧭 What I do
 
-I'm a **Research Associate at Stryker**, working on **medical imaging** and computer
-vision applications — a domain where a wrong pixel has consequences, and where inference
-has to be fast enough to sit inside a clinical workflow.
+I'm a **Research Associate at Stryker**, working on medical imaging and computer vision
+applications.
 
-That shapes how I build: the whole path of a vision feature, from training and evaluating
-the model, to optimising it for inference so it meets a real latency budget, to the app
-that puts it in front of users. Several of the projects below were built to a hackathon
-deadline.
+I work across the whole path of a vision feature: training and evaluating the model,
+optimising it for inference, then building the app around it. Several of the projects
+below were built at hackathons.
 
 Currently going deeper on **LLMs, applied ML, and system design**.
 Reach me at **hey.kumarshivam@gmail.com**.
