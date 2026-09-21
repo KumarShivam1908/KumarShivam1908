@@ -14,6 +14,15 @@ on:
 permissions:
   contents: write
 
+# Pushes a minute apart used to start overlapping runs. Each run reads the
+# metrics.svg sha when it starts and commits against it minutes later, so the
+# slower run failed with "metrics.svg does not match <sha>" and retried until
+# the job timed out. A newer run now cancels the older one, whose render would
+# be superseded anyway.
+concurrency:
+  group: metrics
+  cancel-in-progress: true
+
 jobs:
   metrics:
     runs-on: ubuntu-latest
