@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="360" viewBox="0 0 440 360" role="img" aria-label="Contribution mix: Code review 0%, Issues 0%, Pull requests 8%, Commits 92%">
+  <title>Contribution mix: Code review 0%, Issues 0%, Pull requests 8%, Commits 92%</title>
+  <rect width="440" height="360" fill="#0d1117" rx="6"/>
+  <line x1="220" y1="182" x2="220.0" y2="78.0" stroke="#3fb950" stroke-width="2.5"/>
+  <line x1="220" y1="182" x2="324.0" y2="182.0" stroke="#3fb950" stroke-width="2.5"/>
+  <line x1="220" y1="182" x2="220.0" y2="286.0" stroke="#3fb950" stroke-width="2.5"/>
+  <line x1="220" y1="182" x2="116.0" y2="182.0" stroke="#3fb950" stroke-width="2.5"/>
+  <polygon points="220.0,182.0 220.0,182.0 220.0,190.8 116.0,182.0" fill="#2ea043" fill-opacity="0.75" stroke="#2ea043" stroke-width="2"/>
+  <circle cx="220.0" cy="182.0" r="5" fill="#7ee787"/>
+  <circle cx="220.0" cy="182.0" r="5" fill="#7ee787"/>
+  <circle cx="220.0" cy="190.8" r="5" fill="#7ee787"/>
+  <circle cx="116.0" cy="182.0" r="5" fill="#7ee787"/>
+  <text x="220" y="42" text-anchor="middle" fill="#79c0ff" font-size="15" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">0%<tspan x="220" dy="19">Code review</tspan></text>
+  <text x="340" y="174" text-anchor="start" fill="#79c0ff" font-size="15" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">0%<tspan x="340" dy="19">Issues</tspan></text>
+  <text x="220" y="316" text-anchor="middle" fill="#79c0ff" font-size="15" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">8%<tspan x="220" dy="19">Pull requests</tspan></text>
+  <text x="100" y="174" text-anchor="end" fill="#79c0ff" font-size="15" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">92%<tspan x="100" dy="19">Commits</tspan></text>
+</svg>
