@@ -18,8 +18,12 @@
 
 ### 🧭 What I do
 
-I'm a **Research Associate at Stryker**, working on medical imaging and computer vision
-applications.
+I'm a **Research Associate at Stryker's Global Technology Center**, working on medical imaging and
+computer vision: synthetic data generation (Blender, NVIDIA Isaac Sim), fine-tuning VLMs with
+LoRA/QLoRA, and the MLOps around them (Docker, DVC, MLflow).
+
+Outside work I'm building **[LiveIssues](https://liveissues.lol)**, an open-source issue recommender
+for Google Summer of Code organizations, and contributing to **neural-lam**.
 
 Currently going deeper on **LLMs, applied ML, and system design**.
 Reach me at **hey.kumarshivam@gmail.com**.
@@ -31,6 +35,38 @@ Reach me at **hey.kumarshivam@gmail.com**.
 - 💬 Ask me about **Python, ML, Next.js, or backend design**
 - 📫 Reach me at **hey.kumarshivam@gmail.com**
 -->
+
+---
+
+### 🔨 Building now: LiveIssues
+
+**[liveissues.lol](https://liveissues.lol)** · <sub>[walkthrough video](https://youtu.be/NjKuE4BFB1I) · source is private, happy to walk through it</sub>
+
+Sign in with GitHub and LiveIssues reads what you already build, matches you to the Google Summer
+of Code organizations that fit, and hands you unclaimed issues you can pick up today, each with the
+reasons it was picked.
+
+- **Recommender:** three retrievers (structured, full-text, embedding kNN) feed a reranker built from nine weighted, explainable components, so every match says *why*
+- **Fresh issues:** all 511 GSoC organizations are scanned continuously; each followed organization becomes a channel with a room per repository, and new issues land within the hour, flagged if someone has already started
+- **Architecture:** five FastAPI services (sign-in and token custody, org scanning, GitHub profile building, ranking, and the API with its channels worker) behind a React frontend; only one service talks to GitHub
+- **Outcomes:** tracks the pull requests opened and merged on recommended issues, to measure whether a recommendation actually led to a contribution
+- **Deployed** with Docker Compose behind Caddy on GCP
+
+<sub>Built with FastAPI · React · Elasticsearch · PostgreSQL · SQLite FTS5 · Supabase · Docker · GCP</sub>
+
+---
+
+### 🌍 Open source
+
+Contributing to **[mllam/neural-lam](https://github.com/mllam/neural-lam)** ⭐ 296, research software for neural weather prediction over limited areas, mostly on its test suite and CI:
+
+| Pull request | Status |
+| :-- | :-- |
+| [Use one actions/cache step so PRs stop storing duplicate test data](https://github.com/mllam/neural-lam/pull/754) | ✅ Merged |
+| [Keep a copy of the DANRA test data between CI runs](https://github.com/mllam/neural-lam/pull/751) | 🟢 Open |
+| [Update the flags of the testsuite](https://github.com/mllam/neural-lam/pull/750) | 🟢 Open |
+| [Add property-based tests for output clamping](https://github.com/mllam/neural-lam/pull/741) | 🟢 Open |
+| [Add Markdown link checking and a PR-template doc-update reminder](https://github.com/mllam/neural-lam/pull/738) | 🟢 Open |
 
 ---
 
@@ -51,6 +87,7 @@ Reach me at **hey.kumarshivam@gmail.com**.
 | Project | What it does | Built with |
 | :-- | :-- | :-- |
 | **[outsubscribe.lol](https://outsubscribe.lol)** — <sub>[source](https://github.com/KumarShivam1908/ChannelBid)</sub> | A public leaderboard you buy your way up: bids are stored as increments, a raise charges only the difference, and two boards run off the same ledger | Next.js · Prisma · Postgres · Dodo Payments |
+| **[Portfolio OS](https://portfolio-frontend-pearl-rho.vercel.app)** | This portfolio, built as a Windows XP desktop: a hand-written window manager, a virtual file system with a terminal over it, and a tool-using AI assistant grounded in a wiki, with Groq→OpenRouter failover and per-minute token budgeting | React · TypeScript · Express · Groq |
 | **[Portfolio Wars](https://portfolio-wars.vercel.app)** — <sub>[source](https://github.com/KumarShivam1908/PortfolioWars)</sub> | No-login gallery where people submit a portfolio site and everyone else browses, likes and comments | Next.js · Supabase |
 | **[Stitch](https://github.com/KumarShivam1908/Stitch)** ⭐ 1 | Browser-based video editor that plans an edit and routes each task to a specialist tool over MCP | TypeScript · Rust/WASM · Bun |
 | **[CPP-Hub](https://github.com/KumarShivam1908/CPP-Hub)** ⭐ 4 | DSA, core C++ and graphics programming, with multiple solution approaches per problem | C++ |
@@ -88,6 +125,8 @@ Reach me at **hey.kumarshivam@gmail.com**.
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 
 **Cloud / DevOps**
 
@@ -119,8 +158,14 @@ Reach me at **hey.kumarshivam@gmail.com**.
 </p>
 -->
 
+<!-- Parked: the isometric calendar hid each day's count behind bar heights; the calendar below prints them.
 <p align="center">
   <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/main/metrics.isocalendar.svg" alt="isometric contribution calendar" />
+</p>
+-->
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/KumarShivam1908/KumarShivam1908/main/contribution-calendar.svg" alt="contribution calendar for the last year, with each day's count in its cell" width="100%" />
 </p>
 
 <!-- Parked: decoration, says nothing about the work.
