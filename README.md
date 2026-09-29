@@ -76,8 +76,6 @@ reasons it was picked.
 | **[outsubscribe.lol](https://outsubscribe.lol)** — <sub>[source](https://github.com/KumarShivam1908/ChannelBid)</sub> | A public leaderboard you buy your way up: bids are stored as increments, a raise charges only the difference, and two boards run off the same ledger | Next.js · Prisma · Postgres · Dodo Payments |
 | **[Portfolio OS](https://portfolio-frontend-pearl-rho.vercel.app)** | This portfolio, built as a Windows XP desktop: a hand-written window manager, a virtual file system with a terminal over it, and a tool-using AI assistant grounded in a wiki, with Groq→OpenRouter failover and per-minute token budgeting | React · TypeScript · Express · Groq |
 | **[Portfolio Wars](https://portfolio-wars.vercel.app)** — <sub>[source](https://github.com/KumarShivam1908/PortfolioWars)</sub> | No-login gallery where people submit a portfolio site and everyone else browses, likes and comments | Next.js · Supabase |
-| **[Stitch](https://github.com/KumarShivam1908/Stitch)** ⭐ 1 | Browser-based video editor that plans an edit and routes each task to a specialist tool over MCP | TypeScript · Rust/WASM · Bun |
-| **[CPP-Hub](https://github.com/KumarShivam1908/CPP-Hub)** ⭐ 4 | DSA, core C++ and graphics programming, with multiple solution approaches per problem | C++ |
 
 ---
 
@@ -92,6 +90,20 @@ Contributing to **[mllam/neural-lam](https://github.com/mllam/neural-lam)** ⭐ 
 | [Update the flags of the testsuite](https://github.com/mllam/neural-lam/pull/750) | 🟢 Open |
 | [Add property-based tests for output clamping](https://github.com/mllam/neural-lam/pull/741) | 🟢 Open |
 | [Add Markdown link checking and a PR-template doc-update reminder](https://github.com/mllam/neural-lam/pull/738) | 🟢 Open |
+
+---
+
+### 🔨 Building right now
+
+| Project | What it does | Built with |
+| :-- | :-- | :-- |
+| **Stitch** <sub>(source private)</sub> | AI video editor that plans your edit and routes each task to a specialist tool over MCP, delivering one finished video instead of a pile of clips | TypeScript · Rust/WASM · Electron · Bun |
+
+---
+
+### 📚 What I'm learning
+
+- **[CPP-Hub](https://github.com/KumarShivam1908/CPP-Hub)** ⭐ 4 — my running C++ notes: DSA, core C++ and graphics programming, with more than one approach per problem
 
 ---
 
