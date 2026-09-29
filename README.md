@@ -36,8 +36,7 @@ Reach me at **hey.kumarshivam@gmail.com**.
 - 📫 Reach me at **hey.kumarshivam@gmail.com**
 -->
 
----
-
+<!-- Parked: LiveIssues now sits as a row in Shipped & Live.
 ### 🔨 Building now: LiveIssues
 
 **[liveissues.lol](https://liveissues.lol)** · <sub>[walkthrough video](https://youtu.be/NjKuE4BFB1I) · source is private, happy to walk through it</sub>
@@ -53,20 +52,7 @@ reasons it was picked.
 - **Deployed** with Docker Compose behind Caddy on GCP
 
 <sub>Built with FastAPI · React · Elasticsearch · PostgreSQL · SQLite FTS5 · Supabase · Docker · GCP</sub>
-
----
-
-### 🌍 Open source
-
-Contributing to **[mllam/neural-lam](https://github.com/mllam/neural-lam)** ⭐ 296, research software for neural weather prediction over limited areas, mostly on its test suite and CI:
-
-| Pull request | Status |
-| :-- | :-- |
-| [Use one actions/cache step so PRs stop storing duplicate test data](https://github.com/mllam/neural-lam/pull/754) | ✅ Merged |
-| [Keep a copy of the DANRA test data between CI runs](https://github.com/mllam/neural-lam/pull/751) | 🟢 Open |
-| [Update the flags of the testsuite](https://github.com/mllam/neural-lam/pull/750) | 🟢 Open |
-| [Add property-based tests for output clamping](https://github.com/mllam/neural-lam/pull/741) | 🟢 Open |
-| [Add Markdown link checking and a PR-template doc-update reminder](https://github.com/mllam/neural-lam/pull/738) | 🟢 Open |
+-->
 
 ---
 
@@ -86,11 +72,26 @@ Contributing to **[mllam/neural-lam](https://github.com/mllam/neural-lam)** ⭐ 
 
 | Project | What it does | Built with |
 | :-- | :-- | :-- |
+| **[LiveIssues](https://liveissues.lol)** — <sub>[walkthrough](https://youtu.be/NjKuE4BFB1I)</sub> | Matches developers to open issues across all 511 Google Summer of Code organizations from what they already build on GitHub, and explains every match: three retrievers feed an explainable reranker, and new issues arrive within the hour | FastAPI · React · Elasticsearch · PostgreSQL · Docker · GCP |
 | **[outsubscribe.lol](https://outsubscribe.lol)** — <sub>[source](https://github.com/KumarShivam1908/ChannelBid)</sub> | A public leaderboard you buy your way up: bids are stored as increments, a raise charges only the difference, and two boards run off the same ledger | Next.js · Prisma · Postgres · Dodo Payments |
 | **[Portfolio OS](https://portfolio-frontend-pearl-rho.vercel.app)** | This portfolio, built as a Windows XP desktop: a hand-written window manager, a virtual file system with a terminal over it, and a tool-using AI assistant grounded in a wiki, with Groq→OpenRouter failover and per-minute token budgeting | React · TypeScript · Express · Groq |
 | **[Portfolio Wars](https://portfolio-wars.vercel.app)** — <sub>[source](https://github.com/KumarShivam1908/PortfolioWars)</sub> | No-login gallery where people submit a portfolio site and everyone else browses, likes and comments | Next.js · Supabase |
 | **[Stitch](https://github.com/KumarShivam1908/Stitch)** ⭐ 1 | Browser-based video editor that plans an edit and routes each task to a specialist tool over MCP | TypeScript · Rust/WASM · Bun |
 | **[CPP-Hub](https://github.com/KumarShivam1908/CPP-Hub)** ⭐ 4 | DSA, core C++ and graphics programming, with multiple solution approaches per problem | C++ |
+
+---
+
+### 🌍 Open source
+
+Contributing to **[mllam/neural-lam](https://github.com/mllam/neural-lam)** ⭐ 296, research software for neural weather prediction over limited areas, mostly on its test suite and CI:
+
+| Pull request | Status |
+| :-- | :-- |
+| [Use one actions/cache step so PRs stop storing duplicate test data](https://github.com/mllam/neural-lam/pull/754) | ✅ Merged |
+| [Keep a copy of the DANRA test data between CI runs](https://github.com/mllam/neural-lam/pull/751) | 🟢 Open |
+| [Update the flags of the testsuite](https://github.com/mllam/neural-lam/pull/750) | 🟢 Open |
+| [Add property-based tests for output clamping](https://github.com/mllam/neural-lam/pull/741) | 🟢 Open |
+| [Add Markdown link checking and a PR-template doc-update reminder](https://github.com/mllam/neural-lam/pull/738) | 🟢 Open |
 
 ---
 
