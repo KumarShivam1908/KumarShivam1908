@@ -86,10 +86,10 @@ Contributing to **[mllam/neural-lam](https://github.com/mllam/neural-lam)** ⭐ 
 | Pull request | Status |
 | :-- | :-- |
 | [Use one actions/cache step so PRs stop storing duplicate test data](https://github.com/mllam/neural-lam/pull/754) | ✅ Merged |
-| [Keep a copy of the DANRA test data between CI runs](https://github.com/mllam/neural-lam/pull/751) | 🟢 Open |
-| [Update the flags of the testsuite](https://github.com/mllam/neural-lam/pull/750) | 🟢 Open |
-| [Add property-based tests for output clamping](https://github.com/mllam/neural-lam/pull/741) | 🟢 Open |
-| [Add Markdown link checking and a PR-template doc-update reminder](https://github.com/mllam/neural-lam/pull/738) | 🟢 Open |
+| [Keep a copy of the DANRA test data between CI runs](https://github.com/mllam/neural-lam/pull/751) | 🟢 Open · awaiting review |
+| [Update the flags of the testsuite](https://github.com/mllam/neural-lam/pull/750) | 🟢 Open · changes made, awaiting re-review |
+| [Add property-based tests for output clamping](https://github.com/mllam/neural-lam/pull/741) | 🟡 Open · on hold (not a current priority) |
+| [Add Markdown link checking and a PR-template doc-update reminder](https://github.com/mllam/neural-lam/pull/738) | 🟢 Open · approved, merging after v0.7.0 |
 
 ---
 
