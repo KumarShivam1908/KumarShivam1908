@@ -81,18 +81,38 @@ reasons it was picked.
 
 ### 🌍 Open source
 
-**Maintainer of [mllam/neural-lam](https://github.com/mllam/neural-lam)** ⭐ 302 (joined Oct 2026), research software for neural weather prediction over limited areas. I review and merge contributions, triage issues, and look after the test suite and CI, which is where I started as a contributor. **4 merged · 2 open.**
+**Maintainer of [mllam/neural-lam](https://github.com/mllam/neural-lam)** ⭐ 302 · joined Oct 2026 · <sub>[mllam](https://github.com/mllam) is a Google Summer of Code organization</sub>
 
-| Pull request | Status |
-| :-- | :-- |
-| [Update the flags of the testsuite](https://github.com/mllam/neural-lam/pull/750) <sub>closes [#599](https://github.com/mllam/neural-lam/issues/599)</sub> | ✅ Merged · Oct 2026 |
-| [Add Markdown link checking and a PR-template doc-update reminder](https://github.com/mllam/neural-lam/pull/738) <sub>for [#654](https://github.com/mllam/neural-lam/issues/654)</sub> | ✅ Merged · Oct 2026 |
-| [Keep a copy of the DANRA test data between CI runs](https://github.com/mllam/neural-lam/pull/751) <sub>closes [#257](https://github.com/mllam/neural-lam/issues/257)</sub> | ✅ Merged · Oct 2026 |
-| [Use one actions/cache step so PRs stop storing duplicate test data](https://github.com/mllam/neural-lam/pull/754) <sub>closes [#753](https://github.com/mllam/neural-lam/issues/753)</sub> | ✅ Merged · Sep 2026 |
-| [Raise an error when only one of metrics_watch and var_leads_metrics_watch is set](https://github.com/mllam/neural-lam/pull/785) <sub>closes [#653](https://github.com/mllam/neural-lam/issues/653)</sub> | 🟢 Open · awaiting review |
-| [Add property-based tests for output clamping](https://github.com/mllam/neural-lam/pull/741) <sub>for [#602](https://github.com/mllam/neural-lam/issues/602)</sub> | 🟡 Open · on hold |
+Research software for neural weather prediction over limited areas. I came in through the test suite and CI, and now review and merge contributions and triage issues.
 
-**Up next, assigned to me:** [#528 clearer config validation errors](https://github.com/mllam/neural-lam/issues/528) · [#361 pressure-level loss weighting](https://github.com/mllam/neural-lam/issues/361)
+<p>
+  <a href="https://github.com/mllam/neural-lam/pulls?q=is%3Apr+author%3AKumarShivam1908+is%3Amerged"><img src="https://img.shields.io/badge/PRs_merged-5-8250df?style=flat-square&logo=github" alt="5 PRs merged" /></a>
+  <a href="https://github.com/mllam/neural-lam/pulls?q=is%3Apr+commenter%3AKumarShivam1908+-author%3AKumarShivam1908"><img src="https://img.shields.io/badge/PRs_reviewed-4-0969da?style=flat-square&logo=github" alt="4 PRs reviewed" /></a>
+  <a href="https://github.com/mllam/neural-lam/issues?q=is%3Aissue+assignee%3AKumarShivam1908+is%3Aclosed"><img src="https://img.shields.io/badge/issues_closed-5-1f883d?style=flat-square&logo=github" alt="5 issues closed" /></a>
+  <a href="https://github.com/mllam/neural-lam/issues?q=is%3Aissue+assignee%3AKumarShivam1908+is%3Aopen"><img src="https://img.shields.io/badge/assigned-3-bf8700?style=flat-square&logo=github" alt="3 issues assigned" /></a>
+</p>
+
+**🔧 Pull requests I authored**
+
+| Pull request | Closes | Status |
+| :-- | :-- | :-- |
+| [Raise an error when only one of metrics_watch and var_leads_metrics_watch is set](https://github.com/mllam/neural-lam/pull/785) | [#653](https://github.com/mllam/neural-lam/issues/653) | ✅ Merged · Oct 2026 |
+| [Update the flags of the testsuite](https://github.com/mllam/neural-lam/pull/750) | [#599](https://github.com/mllam/neural-lam/issues/599) | ✅ Merged · Oct 2026 |
+| [Add Markdown link checking and a PR-template doc-update reminder](https://github.com/mllam/neural-lam/pull/738) | [#654](https://github.com/mllam/neural-lam/issues/654) | ✅ Merged · Oct 2026 |
+| [Keep a copy of the DANRA test data between CI runs](https://github.com/mllam/neural-lam/pull/751) | [#257](https://github.com/mllam/neural-lam/issues/257) | ✅ Merged · Oct 2026 |
+| [Use one actions/cache step so PRs stop storing duplicate test data](https://github.com/mllam/neural-lam/pull/754) | [#753](https://github.com/mllam/neural-lam/issues/753) | ✅ Merged · Sep 2026 |
+| [Add property-based tests for output clamping](https://github.com/mllam/neural-lam/pull/741) | for [#602](https://github.com/mllam/neural-lam/issues/602) | 🟡 Open · on hold |
+
+**👀 Pull requests I reviewed**
+
+| Pull request | Author | Status |
+| :-- | :-- | :-- |
+| [Reject step < 1 in --*_steps_to_log and --var_leads_metrics_watch](https://github.com/mllam/neural-lam/pull/746) | @RudraDudhat2509 | ✅ Merged · Sep 2026 |
+| [Add boundary data overlay to evaluation plots](https://github.com/mllam/neural-lam/pull/636) | @sadamov | 🔍 In review |
+| [Add Log-Spectral Distance (LSD) metric for spatial frequency analysis](https://github.com/mllam/neural-lam/pull/508) | @sohampatil01-svg | 🔍 In review |
+| [Extract plot_examples from ARmodel.py into a stateless function in vis.py](https://github.com/mllam/neural-lam/pull/209) | @oleeviyababu | 🔍 In review |
+
+**🧭 Up next, assigned to me:** [#602 property-based testing with hypothesis](https://github.com/mllam/neural-lam/issues/602) · [#528 clearer config validation errors](https://github.com/mllam/neural-lam/issues/528) · [#361 pressure-level loss weighting](https://github.com/mllam/neural-lam/issues/361)
 
 ---
 
