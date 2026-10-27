@@ -87,12 +87,22 @@ Research software for neural weather prediction over limited areas. I came in th
 
 <p>
   <a href="https://github.com/mllam/neural-lam/pulls?q=is%3Apr+author%3AKumarShivam1908+is%3Amerged"><img src="https://img.shields.io/badge/PRs_merged-5-8250df?style=flat-square&logo=github" alt="5 PRs merged" /></a>
-  <a href="https://github.com/mllam/neural-lam/pulls?q=is%3Apr+commenter%3AKumarShivam1908+-author%3AKumarShivam1908"><img src="https://img.shields.io/badge/PRs_reviewed-4-0969da?style=flat-square&logo=github" alt="4 PRs reviewed" /></a>
+  <a href="https://github.com/mllam/neural-lam/pulls?q=is%3Apr+commenter%3AKumarShivam1908+-author%3AKumarShivam1908"><img src="https://img.shields.io/badge/PRs_reviewed-5-0969da?style=flat-square&logo=github" alt="5 PRs reviewed" /></a>
   <a href="https://github.com/mllam/neural-lam/issues?q=is%3Aissue+assignee%3AKumarShivam1908+is%3Aclosed"><img src="https://img.shields.io/badge/issues_closed-5-1f883d?style=flat-square&logo=github" alt="5 issues closed" /></a>
   <a href="https://github.com/mllam/neural-lam/issues?q=is%3Aissue+assignee%3AKumarShivam1908+is%3Aopen"><img src="https://img.shields.io/badge/assigned-3-bf8700?style=flat-square&logo=github" alt="3 issues assigned" /></a>
 </p>
 
-**🔧 Pull requests I authored**
+**🛡️ Maintainer work: reviewing contributions**
+
+| Pull request | Contributor | Outcome |
+| :-- | :-- | :-- |
+| [Add boundary data overlay to evaluation plots](https://github.com/mllam/neural-lam/pull/636) | @sadamov | 🔍 In review |
+| [Extract plot_examples from ARmodel.py into a stateless function in vis.py](https://github.com/mllam/neural-lam/pull/209) | @oleeviyababu | 🔍 In review |
+| [Add Log-Spectral Distance (LSD) metric for spatial frequency analysis](https://github.com/mllam/neural-lam/pull/508) | @sohampatil01-svg | 🔍 In review |
+| [Reject step < 1 in --*_steps_to_log and --var_leads_metrics_watch](https://github.com/mllam/neural-lam/pull/746) | @RudraDudhat2509 | ✅ Merged · Sep 2026 |
+| [Split test suite into unit/ and integration/ subdirectories](https://github.com/mllam/neural-lam/pull/615) | @jishanahmed-shaikh | ⛔ Closed · Sep 2026 |
+
+**🔧 My contributions: pull requests I authored**
 
 | Pull request | Closes | Status |
 | :-- | :-- | :-- |
@@ -102,15 +112,6 @@ Research software for neural weather prediction over limited areas. I came in th
 | [Keep a copy of the DANRA test data between CI runs](https://github.com/mllam/neural-lam/pull/751) | [#257](https://github.com/mllam/neural-lam/issues/257) | ✅ Merged · Oct 2026 |
 | [Use one actions/cache step so PRs stop storing duplicate test data](https://github.com/mllam/neural-lam/pull/754) | [#753](https://github.com/mllam/neural-lam/issues/753) | ✅ Merged · Sep 2026 |
 | [Add property-based tests for output clamping](https://github.com/mllam/neural-lam/pull/741) | for [#602](https://github.com/mllam/neural-lam/issues/602) | 🟡 Open · on hold |
-
-**👀 Pull requests I reviewed**
-
-| Pull request | Author | Status |
-| :-- | :-- | :-- |
-| [Reject step < 1 in --*_steps_to_log and --var_leads_metrics_watch](https://github.com/mllam/neural-lam/pull/746) | @RudraDudhat2509 | ✅ Merged · Sep 2026 |
-| [Add boundary data overlay to evaluation plots](https://github.com/mllam/neural-lam/pull/636) | @sadamov | 🔍 In review |
-| [Add Log-Spectral Distance (LSD) metric for spatial frequency analysis](https://github.com/mllam/neural-lam/pull/508) | @sohampatil01-svg | 🔍 In review |
-| [Extract plot_examples from ARmodel.py into a stateless function in vis.py](https://github.com/mllam/neural-lam/pull/209) | @oleeviyababu | 🔍 In review |
 
 **🧭 Up next, assigned to me:** [#602 property-based testing with hypothesis](https://github.com/mllam/neural-lam/issues/602) · [#528 clearer config validation errors](https://github.com/mllam/neural-lam/issues/528) · [#361 pressure-level loss weighting](https://github.com/mllam/neural-lam/issues/361)
 
