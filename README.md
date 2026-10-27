@@ -23,7 +23,7 @@ computer vision: synthetic data generation (Blender, NVIDIA Isaac Sim), fine-tun
 LoRA/QLoRA, and the MLOps around them (Docker, DVC, MLflow).
 
 Outside work I'm building **[LiveIssues](https://liveissues.lol)**, an open-source issue recommender
-for Google Summer of Code organizations, and contributing to **neural-lam**.
+for Google Summer of Code organizations, and I'm a **maintainer of [mllam/neural-lam](https://github.com/mllam/neural-lam)**.
 
 Currently going deeper on **LLMs, applied ML, and system design**.
 Reach me at **hey.kumarshivam@gmail.com**.
@@ -81,7 +81,7 @@ reasons it was picked.
 
 ### 🌍 Open source
 
-Contributing to **[mllam/neural-lam](https://github.com/mllam/neural-lam)** ⭐ 302, research software for neural weather prediction over limited areas, mostly on its test suite and CI. **4 merged · 2 open.**
+**Maintainer of [mllam/neural-lam](https://github.com/mllam/neural-lam)** ⭐ 302 (joined Oct 2026), research software for neural weather prediction over limited areas. I review and merge contributions, triage issues, and look after the test suite and CI, which is where I started as a contributor. **4 merged · 2 open.**
 
 | Pull request | Status |
 | :-- | :-- |
